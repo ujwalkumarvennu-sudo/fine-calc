@@ -1,0 +1,14 @@
+{
+  "/(calculators)/fd-calculator/page": "app/(calculators)/fd-calculator/page.js",
+  "/(calculators)/hra-calculator/page": "app/(calculators)/hra-calculator/page.js",
+  "/(calculators)/lumpsum-calculator/page": "app/(calculators)/lumpsum-calculator/page.js",
+  "/(calculators)/salary-calculator/page": "app/(calculators)/salary-calculator/page.js",
+  "/(calculators)/sip-calculator/page": "app/(calculators)/sip-calculator/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/terms/page": "app/terms/page.js"
+}

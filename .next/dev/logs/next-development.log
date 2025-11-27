@@ -1,0 +1,69 @@
+[00:00:12.121] Server  LOG      ✓ Ready in 8.1s
+[00:00:15.197] Server  LOG      ○ Compiling / ...
+[00:00:41.334] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:03.901] Server  LOG      ✓ Compiled in 8.2s
+[00:05:24.682] Server  LOG      ✓ Compiled in 1238ms
+[00:05:56.802] Server  LOG      ✓ Compiled in 385ms
+[00:05:58.682] Server  LOG      ✓ Compiled in 425ms
+[00:07:10.130] Server  LOG      ✓ Compiled in 6.8s
+[00:07:23.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:34.508] Server  LOG      ✓ Compiled in 1068ms
+[00:08:10.980] Server  LOG      ○ Compiling /about ...
+[00:09:05.531] Server  LOG      ○ Compiling /fd-calculator ...
+[00:16:50.528] Server  LOG        Reload env: .env.local
+[00:16:51.815] Server  LOG      ✓ Compiled in 476ms
+[00:16:52.097] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./utils/firebase.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:16:54.977] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:00.474] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:48.778] Browser ERROR   Error saving report: {"code":"permission-denied","name":"FirebaseError"}
+[00:17:53.693] Browser ERROR   Error saving report: {"code":"permission-denied","name":"FirebaseError"}
+[00:18:00.504] Browser ERROR   Error fetching reports: {"code":"permission-denied","name":"FirebaseError"}
+[00:18:00.504] Browser ERROR   Error fetching reports: {"code":"permission-denied","name":"FirebaseError"}
+[00:18:13.747] Browser ERROR   Error saving report: {"code":"permission-denied","name":"FirebaseError"}
+[00:19:11.188] Server  LOG      ✓ Compiled in 468ms
+[00:20:13.575] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:15.022] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/sip-calcu..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
++                           className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+                          >
+                  ...
+
+[00:20:24.118] Browser ERROR   Error saving report: {"code":"permission-denied","name":"FirebaseError"}
+[00:20:56.061] Server  LOG        Reload env: .env.local
+[00:20:56.513] Server  LOG      ✓ Compiled in 505ms
+[00:20:57.426] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./utils/firebase.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:21:01.021] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./utils/firebase.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:21:16.398] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
